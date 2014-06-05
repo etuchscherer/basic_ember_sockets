@@ -4,7 +4,7 @@ A stripped-down, very basic ember template that utilizes web sockets.
 
 ## Installation
 
-To install the ember template, run the following from your terminal.
+To install the template, run the following from your terminal.
 
     git clone https://github.com/etuchscherer/basic_ember_sockets.git <PROJECT_NAME> && cd <PROJECT_NAME>
     npm install
