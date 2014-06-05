@@ -1,5 +1,4 @@
 # Basic Ember Template
-===========
 
 A stripped-down, very basic ember template.
 
