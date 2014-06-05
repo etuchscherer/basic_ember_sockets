@@ -1,6 +1,6 @@
 # Basic Ember With Sockets Template 
 
-A stripped-down, very basic ember template.
+A stripped-down, very basic ember template that utilizes web sockets.
 
 ## Installation
 
