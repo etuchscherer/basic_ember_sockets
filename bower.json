@@ -1,0 +1,16 @@
+{
+  "name": "ExampleApp",
+  "main": "index.js",
+  "version": "0.0.0",
+  "authors": [
+    "eric.tuchscherer <eric.tuchscherer@classmates.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

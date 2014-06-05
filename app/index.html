@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Example App</title>
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+</head>
+<body>
+
+	<script type="text/x-handlebars" data-template-name="application">
+		<nav class="navbar navbar-default" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<a href="#" class="navbar-brand">Brand</a>
+				</div>
+				<ul class="nav navbar-nav navbar-right">
+					<li>{{#link-to 'home'}}home{{/link-to}}</li>
+					<li>{{#link-to 'about'}}about{{/link-to}}</li>
+					<li>{{#link-to 'contact'}}contact{{/link-to}}</li>
+				</ul>			
+			</div>			
+		</nav>
+		<div class="container">
+			{{ outlet }}
+		</div>
+	</script>
+
+	<script type='text/x-handlebars' data-template-name='home'>
+		<h1 class="jumbotron">
+			home!
+		</h1>
+	</script>
+
+	<script type='text/x-handlebars' data-template-name='about'>
+		<h1 class="jumbotron">
+			about!
+		</h1>
+	</script>
+
+	<script type='text/x-handlebars' data-template-name='contact'>
+		<h1 class="jumbotron">
+			contact!
+		</h1>
+	</script>
+
+	<script type='text/x-handlebars' data-template-name='loading'>
+		loading…
+	</script>
+
+	<script src="js/jquery/dist/jquery.min.js"></script>
+	<script src="js/handlebars/handlebars.min.js"></script>
+	<script src="js/ember/ember.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+	<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+</body>
+</html>
